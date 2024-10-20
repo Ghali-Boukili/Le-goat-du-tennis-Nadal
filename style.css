@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap')
 
 div.scrollmenu {
-  background-color: #29aa09;
-
+    background-color: #29aa09;
 }
 
 div.scrollmenu a {
@@ -14,7 +13,8 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-  background-color: #723434;
+  background-color: #34724c;
 }
+
 
 
