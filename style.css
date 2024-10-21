@@ -17,9 +17,9 @@ div.scrollmenu {
 }
 
 div.scrollmenu a {
-  color: rgb(18, 8, 75);
+  color: rgb(158, 70, 19);
   text-align: center;
-  padding: 21px;
+  padding: 25px;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
