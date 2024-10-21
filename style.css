@@ -11,13 +11,13 @@ body {
 div.scrollmenu {
   display: flex;
   justify-content: center; 
+  background-color: yellow;
   margin-top: 20px;
 }
 
 div.scrollmenu a {
   display: inline-block;
   color: rgb(18, 8, 75);
-  background-color: yellow;
   text-align: center;
   padding: 21px;
   text-decoration: none;
