@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap')
 
+background-color: #29aa09;
+background-image: url("11french-mens-final-live07-mediumSquareAt3X.png");
+background-size: cover;
+background-position: center;
+
 div.scrollmenu {
-    background-color: #29aa09;
+  display: flex;
+  justify-content: center; 
+  overflow: auto;
+  white-space: nowrap;
 }
 
 div.scrollmenu a {
   display: inline-block;
   color: rgb(18, 8, 75);
   text-align: center;
-  padding: 14px;
+  padding: 17px;
   text-decoration: none;
 }
 
 div.scrollmenu a:hover {
   background-color: #34724c;
 }
-
 
 
