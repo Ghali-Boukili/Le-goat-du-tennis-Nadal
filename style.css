@@ -1,35 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap');
-
 body {
   margin: 0;
+  font-family: 'Crimson Pro', serif;
   background-color: #ffffff;
   background-size: cover;
   background-position: center;
 }
 
-
+/* Menu déroulant */
 div.scrollmenu {
   display: flex;
   justify-content: center;
-  background-color: rgb(158, 70, 19);
+  background: linear-gradient(90deg, rgba(158, 70, 19, 1) 0%, rgba(231, 111, 81, 1) 100%);
   margin-top: 28px;
-  width: 100%; 
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
 }
 
+/* Liens du menu */
 div.scrollmenu a {
   color: rgb(40, 70, 133);
   text-align: center;
-  padding: 25px;
+  padding: 20px 35px;
   text-decoration: none;
   font-size: 30px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.4s ease, transform 0.4s ease, text-shadow 0.4s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
 }
 
+/* Effet au survol */
 div.scrollmenu a:hover {
   background-color: #34724c;
-  transform: scale(1.1);
+  color: #fff;
+  transform: scale(1.15);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  filter: blur(0.5px);
 }
 
+/* Effet d'ombre autour du menu */
+div.scrollmenu a:active {
+  transform: scale(1.1);
+  filter: blur(0px);
+}
 
 
 
