@@ -5,7 +5,7 @@ background-image: url("11french-mens-final-live07-mediumSquareAt3X.png");
 background-size: cover;
 background-position: center;
 
-div.scrollmenu {
+div.scrollmenu a {
   display: flex;
   justify-content: center; 
   overflow: auto;
@@ -16,7 +16,7 @@ div.scrollmenu a {
   display: inline-block;
   color: rgb(18, 8, 75);
   text-align: center;
-  padding: 17px;
+  padding: 21px;
   text-decoration: none;
 }
 
