@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap')
 
+body {
+  margin: 0;
+  background-color: ;
+  background-size: cover;
+  background-position: center;
+
 div.scrollmenu {
   display: flex;
   justify-content: center; 
@@ -22,12 +28,6 @@ div.scrollmenu a:hover {
   transform: scale(1.1);
 }
 
-body {
-  margin: 0;
-  background-color: ;
-  background-size: cover;
-  background-position: center;
-}
 
 
 
