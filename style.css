@@ -11,7 +11,7 @@ body {
 div.scrollmenu {
   display: flex;
   justify-content: center;
-  background-color: rgb(158, 70, 19);
+  background-color: rgb(40, 70, 133);
   margin-top: 28px;
   width: 100%; 
 }
