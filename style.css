@@ -5,6 +5,7 @@ div.scrollmenu {
   justify-content: center; 
   background-color: yellow;
   margin-top: 20px;
+  width: 100%;
 }
 
 div.scrollmenu a {
