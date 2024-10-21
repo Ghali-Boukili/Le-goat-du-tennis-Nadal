@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap')
+
 body {
   margin: 0;
   background-color: #29aa09;
@@ -25,5 +27,6 @@ div.scrollmenu a:hover {
   background-color: #34724c;
   transform: scale(1.1);
 }
+
 
 
