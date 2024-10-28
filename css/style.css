@@ -77,8 +77,17 @@ header h1 {
   color: #333;
 }
 
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 21px; 
+  line-height: 1.5;
+}
+
 #nadalImageintro {
-    width: 20%; /* Ajustez la largeur selon vos besoins */
+    width: 25%; /* Ajustez la largeur selon vos besoins */
     height: auto; /* Maintient le ratio de l'image */
     border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre (optionnel) */
