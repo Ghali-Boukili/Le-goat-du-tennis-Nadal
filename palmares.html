@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8"
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Son palmarès</title>
+  <link rel="shortcut icon" href="Logo_Rafael_Nadal.svg.png" type="image/png">
   <link rel="stylesheet" href="style.css">
+  <title>Son Palmarès</title>
 </head>
 <body>
-
   <nav>
     <div class="scrollmenu">
-      <img src="images/logo_nadal.png" alt="Nadal Logo" class="logo nadal">
+      <img src="Logo_Rafael_Nadal.svg.png" alt="Nadal Logo" class="logo nadal">
       <a href="index.html">Accueil</a>
+      <a href="palmares.html">Son palmarès</a>
       <a href="histoire.html">Son histoire</a>
       <a href="bestshot.html">Bestshot</a>
       <a href="sesrivaux.html">Ses rivaux éternels</a>
       <div class="login-form">
-        <form action="login.php" method="post">
+      <form action="login.php" method="post">
           <input type="text" placeholder="Nom d'utilisateur" name="username" required>
           <input type="password" placeholder="Mot de passe" name="password" required>
           <button type="submit">Se connecter</button>
@@ -24,7 +25,30 @@
       </div>
     </div>
   </nav>
-<p id="truc">This is a paragraph.</p>
+
+<header>
+  <h1>Palmarès de Rafael Nadal</h1>
+</header>
+
+<section class="content">
+  <article>
+    <h2>Grands Chelems</h2>
+    <p>Rafael Nadal a remporté un total impressionnant de 22 titres du Grand Chelem, dont 14 titres à Roland-Garros, ce qui en fait le joueur le plus titré de l’histoire sur terre battue. Sa domination à Roland-Garros reste inégalée dans l’histoire du tennis moderne.</p>
+    <img src="images/nadal-roland-garros.jpg" alt="Nadal à Roland-Garros">
+  </article>
+
+  <article>
+    <h2>Masters 1000</h2>
+    <p>Avec 36 titres en Masters 1000, Nadal a excellé dans cette catégorie de tournois, avec des victoires mémorables à Monte-Carlo, Rome, et Madrid. Il a également marqué l’histoire en remportant les 9 tournois Masters 1000 au moins une fois.</p>
+    <img src="images/nadal-masters.jpg" alt="Nadal célébrant un titre de Masters 1000">
+  </article>
+
+  <article>
+    <h2>Jeux Olympiques</h2>
+    <p>Nadal a remporté deux médailles d’or aux Jeux olympiques : en simple à Pékin en 2008 et en double à Rio en 2016, faisant de lui un champion olympique à part entière.</p>
+    <img src="images/nadal-olympics.jpg" alt="Nadal avec sa médaille d'or aux JO">
+  </article>
+</section>
 
 
 </body>
