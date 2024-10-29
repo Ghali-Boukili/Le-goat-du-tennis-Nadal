@@ -84,22 +84,22 @@ header h1 {
   padding: 20px;
   font-size: 21px; 
   line-height: 1.5;
+  text-align: left;
 }
 
 #nadalImageintro {
-    width: 25%; 
-    height: auto; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    display: block; 
-    margin: 20px auto; 
-    transition: transform 0.4s ease; 
+    width: 25%; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre (optionnel) */
+    display: block; /* Centre l'image en tant qu'élément de bloc */
+    margin: 20px auto; /* Marge en haut/bas de 20px et centrée horizontalement */
+    transition: transform 0.4s ease; /* Transition pour l'effet de va-et-vient */
 }
 
-
-#nadalImageintro2:hover,
+/* Animation de va-et-vient lors du survol */
 #nadalImageintro:hover {
-    animation: bounce 0.6s; 
+    animation: bounce 0.6s; /* Démarre l'animation "bounce" au survol */
 }
 
 @keyframes bounce {
@@ -159,7 +159,7 @@ figcaption {
     padding: 20px;
     background-color: #f9fafc;
     border-radius: 10px;
-    max-width: 2000px;
+    max-width: 800px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     font-size: 20px;
 }
@@ -182,17 +182,18 @@ figcaption {
 #dernieresnouvelles p:last-of-type {
     margin-bottom: 0; /* Retire la marge du dernier paragraphe pour un meilleur espacement */
 }
+
 #nadalJO {
-    width: 50%; 
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    display: block; 
-    margin: 20px auto; 
-    transition: transform 0.4s ease; 
+    width: 50%; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre (optionnel) */
+    display: block; /* Centre l'image en tant qu'élément de bloc */
+    margin: 20px auto; /* Marge en haut/bas de 20px et centrée horizontalement */
+    transition: transform 0.4s ease; /* Transition pour l'effet de va-et-vient */
 }
 
-
+/* Animation de va-et-vient lors du survol */
 #nadalJO:hover {
     animation: bounce 0.6s; /* Démarre l'animation "bounce" au survol */
 }
@@ -207,4 +208,480 @@ figcaption {
     60% {
         transform: translateY(-5px); /* Monte de 5px */
     }
+}
+#final {
+    text-align: center;
+}
+.fin {
+    color: #3366cc;
+}
+
+.debutpalmares {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 21px; 
+  line-height: 1.5;
+}
+
+.debutpalmares {
+    display: flex; /* Utilise flexbox pour aligner le texte et l'image sur la même ligne */
+    align-items: flex-start; /* Aligne les éléments en haut */
+    padding: 20px;
+    font-size: 21px; 
+    line-height: 1.5;
+}
+
+.content {
+    display: flex; /* Flexbox pour la mise en page */
+    align-items: flex-start; /* Aligne le texte et l'image en haut */
+}
+
+.textnadal {
+    max-width: 80%; /* Limite la largeur du texte */
+    text-align: left; /* Aligne le texte à gauche */
+    margin-right: 20px; /* Ajoute de l'espace entre le texte et l'image */
+}
+
+#nadalmeilleur {
+    width: 50%; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre (optionnel) */
+    transition: transform 0.4s ease; /* Transition pour l'effet de va-et-vient */
+}
+
+/* Animation de va-et-vient lors du survol */
+#nadalmeilleur:hover {
+    animation: bounce 0.6s; /* Démarre l'animation "bounce" au survol */
+}
+
+/* Définition de l'animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Position d'origine */
+    }
+    40% {
+        transform: translateY(-10px); /* Monte de 10px */
+    }
+    60% {
+        transform: translateY(-5px); /* Monte de 5px */
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Position d'origine */
+    }
+    40% {
+        transform: translateY(-10px); /* Monte de 10px */
+    }
+    60% {
+        transform: translateY(-5px); /* Monte de 5px */
+    }
+}
+
+
+.grand-chelem {
+    display: flex; /* Aligne les images horizontalement */
+    justify-content: space-around; /* Espacement égal entre les éléments */
+    flex-wrap: wrap; /* Permet le passage à la ligne si nécessaire */
+    padding: 50px; /* Espacement autour de la section */
+}
+
+.tournoi {
+    text-align: center; /* Centre le texte sous chaque image */
+    margin: 10px; /* Marge autour de chaque élément */
+}
+
+.Roland-Garros {
+    width: 300px; /* Ajustez la taille des images */
+    height: auto; /* Garde le ratio de l'image */
+    border-radius: 10px; /* Coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    transition: transform 0.3s; /* Transition pour l'effet */
+}
+
+.Roland-Garros:hover {
+    transform: scale(1.05); /* Agrandit l'image au survol */
+}
+
+.US-Open {
+    width: 330px; /* Ajustez la taille des images */
+    height: auto; /* Garde le ratio de l'image */
+    border-radius: 10px; /* Coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    transition: transform 0.3s; /* Transition pour l'effet */
+}
+
+.US-Open:hover {
+    transform: scale(1.05); /* Agrandit l'image au survol */
+}
+
+.Wimbledon {
+    width: 150px; /* Ajustez la taille des images */
+    height: auto; /* Garde le ratio de l'image */
+    border-radius: 10px; /* Coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    transition: transform 0.3s; /* Transition pour l'effet */
+}
+
+.Wimbledon:hover {
+    transform: scale(1.05); /* Agrandit l'image au survol */
+}
+
+.Open_Australie {
+    width: 200px; /* Ajustez la taille des images */
+    height: auto; /* Garde le ratio de l'image */
+    border-radius: 10px; /* Coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    transition: transform 0.3s; /* Transition pour l'effet */
+}
+
+.Open_Australie:hover {
+    transform: scale(1.05); /* Agrandit l'image au survol */
+}
+
+
+
+.palmares h1 {
+    margin-bottom: 50px;
+    color: #3366cc;
+}
+.palmares {
+    width: 100%;
+    max-width: 950px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.palmares th, .palmares td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.palmares th {
+    background-color: #3366cc;
+    color: #fff;
+    text-align: center;
+}
+
+.palmares tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.palmares tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.palmares td {
+    color: #333;
+}
+
+.palmarestexte {
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center; /* Centre le texte sous chaque image */
+    margin: 60px; /* Marge autour de chaque élément */
+    padding: 20px;
+    font-size: 25px; 
+   
+}
+
+.debutpalmares2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    gap: 20px; /* Espace entre l'image et le texte */
+}
+
+.textnadal2 {
+    max-width: 60%;
+    text-align: left;
+}
+
+#nadalmeilleur2 {
+    width: 30%;
+    height: auto;
+    margin-right: 20px; /* Ajoute un espace entre l'image et le texte */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+/* Animation au survol */
+#nadalmeilleur2:hover {
+    animation: bounce 0.6s;
+}
+
+/* Animation "bounce" */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+#nadalmeilleur3 {
+    width: 50%;
+    height: auto;
+    margin-right: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+/* Animation au survol */
+#nadalmeilleur3:hover {
+    animation: bounce 0.6s;
+}
+
+/* Animation "bounce" */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+.debutpalmares2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    gap: 20px; /* Espace entre l'image et le texte */
+}
+
+.textnadal2 {
+    max-width: 60%;
+    text-align: left;
+}
+
+.nadal-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espace entre les deux images */
+}
+
+#nadalmeilleur3 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+/* Animation au survol */
+#nadalmeilleur3:hover {
+    animation: bounce 0.6s;
+}
+
+/* Animation "bounce" */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+#nadalmeilleur4 {
+    width: 110%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+/* Animation au survol */
+#nadalmeilleur4:hover {
+    animation: bounce 0.6s;
+}
+
+/* Animation "bounce" */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+#nadalmeilleur1 {
+    width: 20%;
+    height: auto;
+    margin-right: 20px; /* Ajoute un espace entre l'image et le texte */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+/* Animation au survol */
+#nadalmeilleur1:hover {
+    animation: bounce 0.6s;
+}
+
+/* Animation "bounce" */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.debutpalmares2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    gap: 20px; /* Espace entre les images et le texte */
+}
+
+.textnadal2 {
+    max-width: 60%;
+    text-align: left;
+}
+
+#nadalmeilleur0{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espace entre les deux images */
+}
+
+#nadalmeilleur0{
+    width: 300px; /* Taille définie pour les images */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+/* Animation au survol */
+.nadal-image:hover {
+    animation: bounce 0.6s;
+}
+
+/* Animation "bounce" */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+#nadalmeilleur5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espace entre les deux images */
+}
+
+#nadalmeilleur5{
+    width: 300px; /* Taille définie pour les images */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+/* Animation au survol */
+.nadal-image:hover {
+    animation: bounce 0.6s;
+}
+
+/* Animation "bounce" */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+#nadalImage2 {
+    width: 40%; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre (optionnel) */
+    display: block; /* Centre l'image en tant qu'élément de bloc */
+    margin: 20px auto; /* Marge en haut/bas de 20px et centrée horizontalement */
+    transition: transform 0.4s ease; /* Transition pour l'effet de va-et-vient */
+}
+
+/* Animation de va-et-vient lors du survol */
+#nadalImage2:hover {
+    animation: bounce 0.6s; /* Démarre l'animation "bounce" au survol */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Position d'origine */
+    }
+    40% {
+        transform: translateY(-10px); /* Monte de 10px */
+    }
+    60% {
+        transform: translateY(-5px); /* Monte de 5px */
+    }
+}
+figcaption {
+    font-size: 16px; 
+    margin-top: 10px; 
+    color: #333; 
+    font-weight: bold; 
 }
