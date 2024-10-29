@@ -182,7 +182,6 @@ figcaption {
 #dernieresnouvelles p:last-of-type {
     margin-bottom: 0; /* Retire la marge du dernier paragraphe pour un meilleur espacement */
 }
-
 #nadalJO {
     width: 50%; 
     height: auto;
