@@ -87,19 +87,19 @@ header h1 {
 }
 
 #nadalImageintro {
-    width: 25%; /* Ajustez la largeur selon vos besoins */
-    height: auto; /* Maintient le ratio de l'image */
-    border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre (optionnel) */
-    display: block; /* Centre l'image en tant qu'élément de bloc */
-    margin: 20px auto; /* Marge en haut/bas de 20px et centrée horizontalement */
-    transition: transform 0.4s ease; /* Transition pour l'effet de va-et-vient */
+    width: 25%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: block; 
+    margin: 20px auto; 
+    transition: transform 0.4s ease; 
 }
 
-/* Animation de va-et-vient lors du survol */
+
 #nadalImageintro2:hover,
 #nadalImageintro:hover {
-    animation: bounce 0.6s; /* Démarre l'animation "bounce" au survol */
+    animation: bounce 0.6s; 
 }
 
 @keyframes bounce {
@@ -184,16 +184,16 @@ figcaption {
 }
 
 #nadalJO {
-    width: 50%; /* Ajustez la largeur selon vos besoins */
-    height: auto; /* Maintient le ratio de l'image */
-    border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre (optionnel) */
-    display: block; /* Centre l'image en tant qu'élément de bloc */
-    margin: 20px auto; /* Marge en haut/bas de 20px et centrée horizontalement */
-    transition: transform 0.4s ease; /* Transition pour l'effet de va-et-vient */
+    width: 50%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: block; 
+    margin: 20px auto; 
+    transition: transform 0.4s ease; 
 }
 
-/* Animation de va-et-vient lors du survol */
+
 #nadalJO:hover {
     animation: bounce 0.6s; /* Démarre l'animation "bounce" au survol */
 }
