@@ -153,3 +153,59 @@ figcaption {
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+#dernieresnouvelles {
+    margin: 22px auto;
+    padding: 25px;
+    background-color: #f9fafc;
+    border-radius: 20px;
+    max-width: 1100px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+#dernieresnouvelles h2 {
+    font-size: 32px;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
+
+#dernieresnouvelles p {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 18px;
+}
+
+#dernieresnouvelles p:last-of-type {
+    margin-bottom: 0; /* Retire la marge du dernier paragraphe pour un meilleur espacement */
+}
+
+#nadalJO {
+    width: 50%; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre (optionnel) */
+    display: block; /* Centre l'image en tant qu'élément de bloc */
+    margin: 20px auto; /* Marge en haut/bas de 20px et centrée horizontalement */
+    transition: transform 0.4s ease; /* Transition pour l'effet de va-et-vient */
+}
+
+/* Animation de va-et-vient lors du survol */
+#nadalJO:hover {
+    animation: bounce 0.6s; /* Démarre l'animation "bounce" au survol */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Position d'origine */
+    }
+    40% {
+        transform: translateY(-10px); /* Monte de 10px */
+    }
+    60% {
+        transform: translateY(-5px); /* Monte de 5px */
+    }
+}
