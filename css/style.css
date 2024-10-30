@@ -596,7 +596,7 @@ figcaption {
 }
 
 #nadalmeilleur0{
-    width: 150px; /* Taille définie pour les images */
+    width: 250px; /* Taille définie pour les images */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -628,7 +628,7 @@ figcaption {
 }
 
 #nadalmeilleur5{
-    width: 170px; /* Taille définie pour les images */
+    width: 270px; /* Taille définie pour les images */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
