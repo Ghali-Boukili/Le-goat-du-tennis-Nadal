@@ -129,7 +129,7 @@ figcaption {
 
 #videoSection iframe {
   width: 100%;
-  max-width: 560px; 
+  max-width: 800px; 
   aspect-ratio: 16 / 9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -159,7 +159,7 @@ figcaption {
     padding: 20px;
     background-color: #f9fafc;
     border-radius: 10px;
-    max-width: 1000px; /* avt 800px*/
+    max-width: 1100px; /* avt 800px*/
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     font-size: 20px;
 }
@@ -412,7 +412,7 @@ figcaption {
 }
 
 #nadalmeilleur2 {
-    width: 15%;
+    width: 50%;
     height: auto;
     margin-right: 20px; /* Ajoute un espace entre l'image et le texte */
     border-radius: 10px;
@@ -517,7 +517,7 @@ figcaption {
 }
 
 #nadalmeilleur4 {
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -596,7 +596,7 @@ figcaption {
 }
 
 #nadalmeilleur0{
-    width: 100px; /* Taille définie pour les images */
+    width: 180px; /* Taille définie pour les images */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -628,7 +628,7 @@ figcaption {
 }
 
 #nadalmeilleur5{
-    width: 270px; /* Taille définie pour les images */
+    width: 300px; /* Taille définie pour les images */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -743,3 +743,4 @@ figcaption {
         transform: translateY(-5px);
     }
 }
+
