@@ -296,7 +296,7 @@ figcaption {
 }
 
 .Roland-Garros {
-    width: 300px; /* Ajustez la taille des images */
+    width: 350px; /* Ajustez la taille des images */
     height: auto; /* Garde le ratio de l'image */
     border-radius: 10px; /* Coins arrondis (optionnel) */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
@@ -308,7 +308,7 @@ figcaption {
 }
 
 .US-Open {
-    width: 330px; /* Ajustez la taille des images */
+    width: 380px; /* Ajustez la taille des images */
     height: auto; /* Garde le ratio de l'image */
     border-radius: 10px; /* Coins arrondis (optionnel) */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
@@ -320,7 +320,7 @@ figcaption {
 }
 
 .Wimbledon {
-    width: 150px; /* Ajustez la taille des images */
+    width: 200px; /* Ajustez la taille des images */
     height: auto; /* Garde le ratio de l'image */
     border-radius: 10px; /* Coins arrondis (optionnel) */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
@@ -332,7 +332,7 @@ figcaption {
 }
 
 .Open_Australie {
-    width: 200px; /* Ajustez la taille des images */
+    width: 250px; /* Ajustez la taille des images */
     height: auto; /* Garde le ratio de l'image */
     border-radius: 10px; /* Coins arrondis (optionnel) */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
