@@ -448,14 +448,23 @@ figcaption {
 
 
 
-.palmarestexte {
-    margin-bottom: 40px;
+.palmarestexte h3 {
+    margin-bottom: 20px;
     font-weight: bold;
-    text-align: center; /* Centre le texte sous chaque image */
-    margin: 60px; /* Marge autour de chaque élément */
+    text-align: center;
+    margin: 60px; 
     padding: 20px;
     font-size: 25px; 
-   
+}
+
+.palmarestexte p {
+    margin-top: 0; 
+    margin-bottom: 20px;
+    font-weight: normal; 
+    text-align: center; 
+    margin: 60px; 
+    padding: 10px 0; 
+    font-size: 16px; 
 }
 
 .debutpalmares2 {
