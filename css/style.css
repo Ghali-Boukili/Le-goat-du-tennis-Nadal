@@ -113,6 +113,34 @@ header h1 {
         transform: translateY(-5px); /* Monte de 5px */
     }
 }
+
+#nadalImageintro3 {
+    width: 40%; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 10px; /* Ajoute des coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre (optionnel) */
+    display: block; /* Centre l'image en tant qu'élément de bloc */
+    margin: 20px auto; /* Marge en haut/bas de 20px et centrée horizontalement */
+    transition: transform 0.4s ease; /* Transition pour l'effet de va-et-vient */
+}
+
+/* Animation de va-et-vient lors du survol */
+#nadalImageintro3:hover {
+    animation: bounce 0.6s; /* Démarre l'animation "bounce" au survol */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Position d'origine */
+    }
+    40% {
+        transform: translateY(-10px); /* Monte de 10px */
+    }
+    60% {
+        transform: translateY(-5px); /* Monte de 5px */
+    }
+}
+
 figcaption {
     font-size: 16px; 
     margin-top: 10px; 
