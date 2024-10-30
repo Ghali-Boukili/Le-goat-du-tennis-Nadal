@@ -772,3 +772,17 @@ figcaption {
     }
 }
 
+.nadal {
+    font-weight: bold;
+    color: red;
+}
+
+.federer{
+   font-weight: bold;
+  
+}
+.djokovic {
+     font-weight: bold;
+    color: blue;
+}
+
