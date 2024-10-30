@@ -717,3 +717,29 @@ figcaption {
         transform: translateY(-5px);
     }
 }
+
+#nadalmeilleur7 {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+/* Animation au survol */
+#nadalmeilleur7:hover {
+    animation: bounce 0.6s;
+}
+
+/* Animation "bounce" */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
